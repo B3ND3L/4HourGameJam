@@ -30,6 +30,6 @@ public class PlayerScript : MonoBehaviour
 	void FixedUpdate()
 	{
 		// 5 - Move the game object
-		GetComponent<Rigidbody2D>().velocity = movement;
+		this.gameObject.GetComponent<Rigidbody2D>().velocity = movement;
 	}
 }
